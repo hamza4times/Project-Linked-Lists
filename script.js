@@ -1,4 +1,4 @@
-class LinkedList {
+export class LinkedList {
     constructor(value){
         this.value = value;
     }
@@ -40,11 +40,11 @@ class LinkedList {
     }
 
     toString(){
-        
+        return "...";
     }
 }
 
-class Node {
+export class Node {
 
     constructor(value, nextNode){
         this.value = null;
